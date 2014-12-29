@@ -1,12 +1,18 @@
-Terminal.js
-===========
-
-Basic terminal-like display using JS / jQuery
-
-## Usage
-
+<head>
+    <title>Terminal. js | Example</title>
+    <link rel="stylesheet" href="terminal.css">
+</head>
+<body>
+    <div id="terminal"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+    <script src="Terminal.js"></script>
+    <script>
         var terminal = new Terminal($("#terminal"), "user@machine $ ")
 
         terminal.init(); // start caret
 
         terminal.addMessage("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore magni, beatae laborum. Culpa labore sequi, officia! Minima, cumque adipisci dolor, similique qui quaerat quos, facere voluptate suscipit iure quia?");
+ 
+
+    </script>
+</body>
